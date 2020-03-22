@@ -83,13 +83,13 @@ class Profile extends Component {
               <Input
                 value={this.state.author}
                 onChange={this.handleInputChange}
-                name="author"
+                name="location"
                 placeholder="Location (required)"
               />
               <TextArea
                 value={this.state.synopsis}
                 onChange={this.handleInputChange}
-                name="synopsis"
+                name="bio"
                 placeholder="Bio (Optional)"
               />
               <FormBtn
